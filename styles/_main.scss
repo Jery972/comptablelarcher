@@ -1,0 +1,20 @@
+.firstBanner {
+  height: 45rem;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(38, 80, 114, 0.8),
+      rgba(38, 80, 114, 0.8)
+    ),
+    url("../images/firstBanner.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  h2 {
+    max-width: 120rem;
+    padding: 0 1rem;
+    font-weight: 300;
+    color: $third-color;
+    margin: auto;
+    text-align: center;
+  }
+}

@@ -9,22 +9,25 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4.3rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.4rem;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-h4,
+h4 {
+  font-size: 2.4rem;
+}
+
 h5 {
   font-size: 2rem;
 }
@@ -47,6 +50,47 @@ a {
   text-decoration: none;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.divLogo {
+  flex: 1;
+}
+.divLogo img {
+  height: 10rem;
+  margin-left: 10%;
+}
+
+.divText {
+  text-align: center;
+  flex: 1;
+}
+.divText h3 {
+  font-weight: 300;
+  color: #444444;
+  padding: 0 1rem;
+}
+
+.firstBanner {
+  height: 45rem;
+  width: 100%;
+  background-image: linear-gradient(rgba(38, 80, 114, 0.8), rgba(38, 80, 114, 0.8)), url("../images/firstBanner.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+}
+.firstBanner h2 {
+  max-width: 120rem;
+  padding: 0 1rem;
+  font-weight: 300;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
 @media screen and (max-width: 750px) {
   li,
 button,
@@ -58,16 +102,27 @@ p {
     font-size: 1.6rem;
   }
   h1 {
-    font-size: 3.3rem;
+    font-size: 4.1rem;
   }
   h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
     font-size: 2.8rem;
   }
   h3 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
-  h4,
-h5 {
+  h5 {
     font-size: 1.8rem;
+  }
+  header {
+    flex-direction: column;
+  }
+  .divLogo img {
+    margin-left: 0;
+  }
+  .divText h3 {
+    padding: 1.5rem 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

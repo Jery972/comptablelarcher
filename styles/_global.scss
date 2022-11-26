@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -20,9 +20,11 @@ h2 {
 h3 {
   font-size: $header3;
 }
-h4,
-h5 {
+h4 {
   font-size: $header4;
+}
+h5 {
+  font-size: $header5;
 }
 ul {
   list-style: none;
