@@ -120,7 +120,7 @@ p {
     flex-direction: column;
   }
   .divLogo img {
-    margin-left: 0;
+    margin-left: unset;
   }
   .divText h3 {
     padding: 1.5rem 1rem;
