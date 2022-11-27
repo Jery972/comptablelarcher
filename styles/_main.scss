@@ -24,14 +24,75 @@ main {
   align-items: center;
 }
 section {
-  max-width: 120rem;
-  padding: 0rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .sectionPres {
+  padding-bottom: 4rem;
+  h1,
+  h4 {
+    color: $main-color;
+  }
   h1 {
     margin-bottom: 2rem;
     margin-top: 4rem;
     font-family: "Roboto Condensed", sans-serif;
   }
+  h4 {
+    font-weight: normal;
+    margin-bottom: 3rem;
+  }
+}
+.containerSection {
+  max-width: 120rem;
+  padding: 1rem;
+}
+.divTextPres {
+  padding: 3rem;
+  p {
+    margin-bottom: 3rem;
+    color: $color-text;
+    text-align: justify;
+    line-height: 3rem;
+  }
+}
+.buttonReser {
+  padding: 1.5rem 3rem;
+  background-color: $fourth-color;
+  border-radius: 4px;
+  color: $third-color;
+  margin: 1rem;
+  display: inline-block;
+}
+.sectionServ {
+  background: $second-background;
+  color: $third-color;
+  padding-top: 5rem;
+  h3,
+  h4 {
+    margin-bottom: 2rem;
+  }
+  h4 {
+    font-weight: normal;
+  }
+}
+.containerServ {
+  display: flex;
+  flex: 1;
+}
+.partServ {
+  padding: 2rem 0;
+  img {
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: $second-text;
+  }
+}
+.textServ {
+  padding: 3rem;
+  line-height: 3rem;
 }
