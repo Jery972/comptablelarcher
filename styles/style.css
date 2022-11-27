@@ -43,7 +43,7 @@ input,
 a,
 span,
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -170,9 +170,6 @@ section {
 .partServ img {
   margin-bottom: 2rem;
 }
-.partServ p {
-  font-size: 1.8rem;
-}
 
 .textServ {
   padding: 3rem;
@@ -187,19 +184,19 @@ input,
 a,
 span,
 p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   h1 {
-    font-size: 3.8rem;
+    font-size: 3.4rem;
   }
   h2 {
-    font-size: 3.2rem;
-  }
-  h3 {
     font-size: 2.8rem;
   }
   h3 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
+  }
+  h4 {
+    font-size: 2rem;
   }
   h5 {
     font-size: 1.8rem;
@@ -212,5 +209,8 @@ p {
   }
   .divText h3 {
     padding: 1.5rem 1rem;
+  }
+  .containerServ {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

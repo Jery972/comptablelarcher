@@ -3,8 +3,8 @@ $header2: 3.4rem;
 $header3: 3rem;
 $header4: 2.4rem;
 $header5: 2rem;
-$main-text: 1.6rem;
-$second-text: 1.8rem;
+$main-text: 1.8rem;
+$second-text: 1.6rem;
 $color-text: #7a7a7a;
 $main-color: #444444;
 $second-color: #120509;
@@ -28,16 +28,16 @@ $second-background: #191821;
     font-size: calc($main-text - 0.2rem);
   }
   h1 {
-    font-size: calc($header1 - 0.2rem);
+    font-size: calc($header1 - 0.6rem);
   }
   h2 {
-    font-size: calc($header2 - 0.2rem);
+    font-size: calc($header2 - 0.6rem);
   }
   h3 {
-    font-size: calc($header3 - 0.2rem);
+    font-size: calc($header3 - 0.6rem);
   }
-  h3 {
-    font-size: calc($header4 - 0.2rem);
+  h4 {
+    font-size: calc($header4 - 0.4rem);
   }
   h5 {
     font-size: calc($header5 - 0.2rem);
@@ -55,5 +55,8 @@ $second-background: #191821;
     h3 {
       padding: 1.5rem 1rem;
     }
+  }
+  .containerServ {
+    flex-direction: column;
   }
 }
