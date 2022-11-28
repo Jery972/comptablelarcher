@@ -176,6 +176,64 @@ section {
   line-height: 3rem;
 }
 
+.divDetail {
+  display: flex;
+  margin: 5rem 0;
+}
+
+.imageDetail {
+  padding: 1rem;
+  flex: 1 1 50%;
+}
+.imageDetail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.textDetail {
+  padding: 1rem;
+  flex: 1 1 50%;
+  align-self: center;
+}
+.textDetail h5 {
+  color: #444444;
+  margin-top: 1rem;
+}
+.textDetail p {
+  color: #7a7a7a;
+  padding: 2rem;
+}
+.textDetail ul {
+  padding: 3rem;
+  text-align: left;
+}
+.textDetail li {
+  display: flex;
+  align-items: center;
+  color: #444444;
+  font-size: 2rem;
+  line-height: 4.5rem;
+}
+.textDetail li img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.line {
+  display: block;
+  width: 30%;
+  margin: 1rem auto;
+  height: 2px;
+  background: #265072;
+}
+
+.sectionDetailSecond {
+  background: #f7f7f6;
+}
+
 @media screen and (max-width: 750px) {
   li,
 button,
@@ -212,5 +270,16 @@ p {
   }
   .containerServ {
     flex-direction: column;
+  }
+  .divDetail {
+    flex-direction: column;
+  }
+  .textDetail li {
+    font-size: 1.8rem;
+  }
+  .textDetail li img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
